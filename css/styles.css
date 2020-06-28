@@ -256,7 +256,6 @@ img {
 
 .content {
   display: flex;
-  /* padding-top: 50px; */
 }
 
 .feature .content {
@@ -371,15 +370,15 @@ img {
   color: var(--secondary-text-color);
 }
 
-.link {
-  display: flex;
+.member-social {
+  display: inline-flex;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 24px;
 }
 
 .social-link {
-  display: flex;
+  display: inline-flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -496,6 +495,17 @@ img {
   margin-bottom: 74px;
 }
 
+.footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer .social-icon {
+  fill: var(--title-accent-color);
+}
 .join,
 .subscribe {
   color: var(--title-accent-color);
@@ -579,6 +589,14 @@ img {
 
 .portfolio .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+.portfolio .item:hover {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .item-content {
